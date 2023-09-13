@@ -3,6 +3,7 @@
 import re
 import codecs
 import os
+import random
 
 
 # Fnction to read a txt file
@@ -47,8 +48,15 @@ for i in book_list:
     data=data+sentences
 
 
-
-with open('data.txt', 'w',encoding="utf-8") as file:
+with open('english_book_data.txt', 'w',encoding="utf-8") as file:       #For russian change the name to russian_book_data
     for item in data:
         file.write(item + '\n')
 
+#Code to randomly select 100 dataset
+with open('english_book_data.txt',encoding="utf8") as f:  #russian_book_data
+    lines = [line.rstrip('\n') for line in f]
+subdata = random.sample(lines, 1000)
+
+with open('english_book_data_1000.txt', 'w',encoding="utf-8") as file:       #For russian change the name to russian_book_data_1000
+    for item in subdata:
+        file.write(item + '\n')

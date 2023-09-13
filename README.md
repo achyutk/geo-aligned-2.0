@@ -18,6 +18,17 @@ The following datasets are used in this project:
 > [India Corpus](https://drive.google.com/file/d/1_6bY8dqeg3I1-Rqtwrb1lhAX7Y6vGpF3/view?usp=sharing) : Used for training Word2Vec model <br>
 > [Wikipedia Corpus](https://drive.google.com/file/d/1R4HeWvSDaxjFf2cysrxlwMT4_Msy79Dr/view?usp=sharing) : Used for training another Word2Vec model <br>
 > [English Book Dataset](https://drive.google.com/drive/folders/1ZKY7XTQ6cQo1k8Lt24OQt0CGZ589Zekk?usp=sharing) : Used for evaluating the framework <br>
-> [English Book Dataset](https://drive.google.com/drive/folders/1qVMe5ItBX6zgRyFy916eZEavVzgRUPuZ?usp=sharing) : Used for evaluating the framework
+> [Russian Book Dataset](https://drive.google.com/drive/folders/1qVMe5ItBX6zgRyFy916eZEavVzgRUPuZ?usp=sharing) : Used for evaluating the framework
+
+
+
+# main.ipynb
+
+This file executes the framework. Make necessary changes for the framework in the model_download and utils files and run this jupyter notebook. 
+
+Fill the text in the "sentence" variable for which the image is to be generated and run the remaining commands.
+
+VOILA!!! The aligned image is generated
+
 
 
