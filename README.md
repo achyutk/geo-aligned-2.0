@@ -2,9 +2,9 @@ Clone repo and install requirements.txt in a Python>=3.8.0:
 
 > git clone https://github.com/achyutk/geo-aligned-2.0.git     #clone <br>
 > cd geo-aligned-2.0.git <br>
-> pip install -r requirements.txt    #install
-> python -m spacy download en_core_web_sm    #Execute this for a specific spacy library
-> pip install -U git+https://github.com/openai/CLIP.git # Install this for evaluation
+> pip install -r requirements.txt    #install <br>
+> python -m spacy download en_core_web_sm    #Execute this for a specific spacy library <br>
+> pip install -U git+https://github.com/openai/CLIP.git # Install this for evaluation 
  
 
 
