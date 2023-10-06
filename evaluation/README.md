@@ -12,7 +12,7 @@ This code present in **/evaluation/data** used for extracting images from wikipe
 The code will create folders fro respective country in the **/evaluation/data/image/** folder and store images in it.
 
 
-# country_text_features.py
+### country_text_features.py
 
 This file will generate two files in **/evaluation/model** named  eval_country_text_features.pt and eval_country_text_country_list.txt 
 
@@ -20,13 +20,13 @@ This file will generate two files in **/evaluation/model** named  eval_country_t
 > eval_country_text_country_list.txt stores the names of country used to generate the feature set
 
 
-# country_img_features.py
+### country_img_features.py
 
 This code is generating feature set for images sourced from Wikipedia which is stored in **/evaluation/data/image/** , which is later used for evaluation. It will generate two files in **/evaluation/model** named  eval_img_features.pt and eval_img_features_country_list.txt 
 
 > eval_img_features.pt stores features for image dataset from clip model which is later used for evaluation <br>
 > eval_img_features_country_list.txt stores the names of country used to generate the feature set
 
-# eval.ipynb
+### eval.ipynb
 
 This code will reach out to **/output/framework_name** folder for images to evaluate the framework. It will generate four files in the same location. Each representing the results on the four metrics whose functions are defined in the utils.py file. 
