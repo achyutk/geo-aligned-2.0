@@ -1,11 +1,18 @@
+# Evaluation
 
+The scripts in this folder is used to evaluate different combinations of framework. The framework uses 4 different methods to evaluate. 
+
+
+# Installation
 Install the following packages if you want execute only these code, If the environment is already set up using the requirements file from the mail directory, then this step can be avoided:
 
 > pip install -U torch torchvision <br>
 > pip install -U git+https://github.com/openai/CLIP.git <br>
 > pip install pycountry
 
-# download_wiki_images_eval
+# FIles
+
+### download_wiki_images_eval
 
 This code present in **/evaluation/data** used for extracting images from wikipedia. These images are later used for evaluating the framework. In the code , we iterate over the list of country names and download relevant images from the country's wikipedia page 
 
