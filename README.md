@@ -24,7 +24,7 @@ The following datasets are used in this project:
 
 
 
-# main.ipynb
+### main.ipynb
 
 This file executes the framework. Make necessary changes for the framework in the model_download and utils files and run this jupyter notebook. 
 
