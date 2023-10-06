@@ -1,5 +1,9 @@
 # Geo Stories
 
+The framework of this software:
+![image](https://github.com/achyutk/geo-aligned-2.0/assets/73283117/f7ffccbf-7158-434d-8776-9fb9a13baa11)
+
+
 # Installation
 Clone repo and install requirements.txt in a Python>=3.8.0:
 
