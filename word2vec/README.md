@@ -1,10 +1,15 @@
+# Word Embeddings
+
+The code in this repository is used to generate word embedding files like word2vec and glove 
+
+# Installation
 Install the following packages if you want execute only these code, If the environment is already set up using the requirements file from the main directory, then this step can be skipped:
 
 > pip install gensim <br>
 > pip install python-Levenshtein <br>
 > pip install nltk
 
-
+# Files
 ### glove_to_word2vec.py
 To execute this code:
 > Download the [glove](https://nlp.stanford.edu/data/glove.6B.zip) model and save it in **/word2vec/model/glove.6B/** <br>
@@ -27,6 +32,6 @@ This code in **/word2vec/data/** is used to extract data from wikipedia. It crea
 > link_list.txt : This file has list of links from wikipedia the code should extract the data from. <br>
 > wiki_corpus.txt: This file contains the extracted data from wikipedia. This file is later used to train word2vec model. 
 
-# wiki_extraction_india.py
+### wiki_extraction_india.py
 
 This code in **/word2vec/data/** is used to extract data from wikipedia page of "India"/ It creates one file in the same location titled india_corpus.txt. This dataset is later used to train a word2vec model. 
