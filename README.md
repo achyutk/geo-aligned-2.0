@@ -1,6 +1,12 @@
 # Geo Stories
 
-The framework of this software:
+This software, accepts sentences in russian and generates an image which is geo-loacalised for indian audience. The framework developed has four components :
+- Text Translation: Used for transalting sentences from russian to english. (The software uses:  OPUS mt ru-en)
+- Text Mining: Identifying words which needs to be localised . (The software uses NERs, Parsing and WordNet)
+- Word Embeddings: Used for aligning the words according to a geography by performing analogy. (The software uses Word2Vec/GloVe/BERT)
+- Latent Diffusion Model: Used for generating an image. (The software uses fine-tuned stable diffusion model)
+  
+Below is the framework of this software:
 ![image](https://github.com/achyutk/geo-aligned-2.0/assets/73283117/f7ffccbf-7158-434d-8776-9fb9a13baa11)
 
 
@@ -42,7 +48,9 @@ VOILA!!! The aligned image is generated
 
 # Results
 
-Comming Soon...
+![Presentation - Achyut Karnani](https://github.com/achyutk/geo-aligned-2.0/assets/73283117/80077773-b025-4988-bd0e-0d52277628be)
+
+
 
 # Further Reading 
 
