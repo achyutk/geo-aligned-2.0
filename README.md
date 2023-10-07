@@ -49,7 +49,9 @@ VOILA!!! The aligned image is generated
 # Examples
 Below is an example of results for different combinations of components for the fllowing example:
 
-input: "Шерлок ест арбуз в Лондоне. Он одет в темную шляпу, накидку, четкую рубашку с высоким воротником, хорошо подогнанные брюки, начищенные туфли и жилет. Погода на улице дождливая"
+input in russian:  "Шерлок ест арбуз в Лондоне. Он одет в темную шляпу, накидку, четкую рубашку с высоким воротником, хорошо подогнанные брюки, начищенные туфли и жилет. Погода на улице дождливая"
+input in english: "Sherlock eating watermelon in London. He is wearing a dark hat, cape, a crisp shirt with a high collar, well-fitted trousers, polished shoe and a waistcoat. Weather outside is rainy"
+
 ![Presentation - Achyut Karnani](https://github.com/achyutk/geo-aligned-2.0/assets/73283117/80077773-b025-4988-bd0e-0d52277628be)
 
 
