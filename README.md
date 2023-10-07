@@ -46,8 +46,10 @@ Fill the text in the "sentence" variable for which the image is to be generated 
 
 VOILA!!! The aligned image is generated
 
-# Results
+# Examples
+Below is an example of results for different combinations of components for the fllowing example:
 
+input: "Шерлок ест арбуз в Лондоне. Он одет в темную шляпу, накидку, четкую рубашку с высоким воротником, хорошо подогнанные брюки, начищенные туфли и жилет. Погода на улице дождливая"
 ![Presentation - Achyut Karnani](https://github.com/achyutk/geo-aligned-2.0/assets/73283117/80077773-b025-4988-bd0e-0d52277628be)
 
 
